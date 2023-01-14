@@ -1,0 +1,22 @@
+{
+  "name": "team_profile_generator",
+  "version": "1.0.0",
+  "description": "generate team members with prompt",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Johanstraus/OOP_Team_Profile_Generator.git"
+  },
+  "author": "Minh Nguyen minhcao1117@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Johanstraus/OOP_Team_Profile_Generator/issues"
+  },
+  "homepage": "https://github.com/Johanstraus/OOP_Team_Profile_Generator#readme"
+}

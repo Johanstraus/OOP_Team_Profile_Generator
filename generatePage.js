@@ -1,9 +1,9 @@
 const generatePage = team => {
     console.log(team)
     const getManager = manager => {
-    return `<div class="card bg-primary m-3">
+    return `<div class="card bg-info m-2">
     <div class="card-body">
-        <h3 class="card-title text-center">${manager.getRole()}</h3>
+        <h3 class="card-title text-center .text-primary red">${manager.getRole()}</h3>
         <ul class="list-group list-group-flush">
         <li class="list-group-item">Name: ${manager.getName()}</li>
         <li class="list-group-item">ID: ${manager.getId()}</li>
@@ -14,7 +14,7 @@ const generatePage = team => {
     </div>`
     };
     const getEngineer = engineer => {
-        return `<div class="card text-white bg-dark m-3">
+        return `<div class="card text-white bg-warning m-2">
         <div class="card-body">
         <h3 class="card-title text-center">${engineer.getRole()}</h3>
         <ul class="list-group list-group-flush">
@@ -26,7 +26,7 @@ const generatePage = team => {
         </div>`
         };
     const getIntern = intern => {
-        return `<div class="card bg-danger m-3">
+        return `<div class="card bg-success m-2">
         <div class="card-body">
         <h3 class="card-title text-center">${intern.getRole()}</h3>
         <ul class="list-group list-group-flush">
